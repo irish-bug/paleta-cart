@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!-- rtu: substation RTU / data concentrator emulated in OT-sim. Polls the four IEDs over Modbus TCP and serves their points upstream as a DNP3 outstation (TCP 20000, outstation 1024, master 1). DNP3 binary outputs 10-13 open/close the IED breakers. -->
 <ot-sim>
+  <!-- rtu: substation RTU / data concentrator emulated in OT-sim. Polls the four IEDs over Modbus TCP and serves their points upstream as a DNP3 outstation (TCP 20000, outstation 1024, master 1). DNP3 binary outputs 10-13 open/close the IED breakers. -->
   <message-bus>
     <pull-endpoint>tcp://127.0.0.1:1234</pull-endpoint>
     <pub-endpoint>tcp://127.0.0.1:5678</pub-endpoint>

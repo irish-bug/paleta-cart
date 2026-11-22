@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!-- ied1: feeder protection relay emulated in OT-sim. The logic module models the feeder (breaker, 12.47 kV, load current, kW); the Modbus server exposes it. Coil 0 = breaker closed (write 0 to trip). -->
 <ot-sim>
+  <!-- ied1: feeder protection relay emulated in OT-sim. The logic module models the feeder (breaker, 12.47 kV, load current, kW); the Modbus server exposes it. Coil 0 = breaker closed (write 0 to trip). -->
   <message-bus>
     <pull-endpoint>tcp://127.0.0.1:1234</pull-endpoint>
     <pub-endpoint>tcp://127.0.0.1:5678</pub-endpoint>
